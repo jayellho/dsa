@@ -1,7 +1,7 @@
 import collections
 
 # generate a random tree  ==================================================================
-## create tree node class.
+## create node class.
 class Node:
     def __init__(self, val = None, left = None, right = None):
         self.visited = False
